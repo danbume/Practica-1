@@ -28,22 +28,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .navbar {
-    background-color: #ac39ac;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 500px) {
-  .card {
-    width: 300px;
-    font-size: 14px;
-  }
-}
-
 h1,
 h2 {
   font-family: "Montserrat";
@@ -89,6 +73,15 @@ h2 {
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    background-color: #ac39ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .my-button {
   display: flex;
   align-items: center;
@@ -129,6 +122,13 @@ h2 {
   box-shadow: 1px 1px 4px rgb(180, 178, 178), -1px -1px 4px rgb(180, 178, 178);
   overflow: hidden;
   margin: 30px;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 250px;
+    font-size: 14px;
+  }
 }
 
 .image-content {
